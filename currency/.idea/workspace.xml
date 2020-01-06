@@ -6,7 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf6c14fb-9d38-4cf3-b6a1-30328ba4f4e7" name="Default Changelist" comment="" />
+    <list default="true" id="bf6c14fb-9d38-4cf3-b6a1-30328ba4f4e7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +22,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -28,6 +33,7 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1UgOKLIPc3WXzyRIzqQP514etSM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -130,11 +136,6 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
             </expand>
             <select />
           </treeState>
@@ -153,6 +154,7 @@
       <option name="presentableId" value="Default" />
       <updated>1575774707046</updated>
       <workItem from="1575774709965" duration="3049000" />
+      <workItem from="1575861432790" duration="136000" />
     </task>
     <servers />
   </component>
@@ -164,6 +166,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1575776697215" />
+    <state x="462" y="104" key="FileChooserDialogImpl" timestamp="1575861565166">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="104" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1575861565166" />
     <state width="905" height="179" key="GridCell.Tab.0.bottom" timestamp="1575781572692">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -212,6 +218,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="905" height="179" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1575781572692" />
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1575861435458">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1575861435458" />
+    <state x="65" y="0" key="new project wizard" timestamp="1575861566603">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1575861566603" />
     <state x="346" y="49" key="search.everywhere.popup" timestamp="1575775393291">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

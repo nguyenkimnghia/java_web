@@ -1,0 +1,53 @@
+<servlet>
+
+    <servlet-name>spring</servlet-name>
+
+    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+
+    <!-- Thực hiện khai báo vị trí chứa các file configs-->
+
+    <init-param>
+
+        <param-name>contextConfigLocation</param-name>
+
+        <param-value>/WEB-INF/configs/*.xml</param-value>
+
+    </init-param>
+
+    <load-on-startup>1</load-on-startup>
+
+</servlet>
+
+<servlet-mapping>
+
+<servlet-name>spring</servlet-name>
+
+<url-pattern>/</url-pattern>
+
+</servlet-mapping>
+
+        Tạo thư mục configs, trong thư mục configs tạo file spring-config-mvc
+
+        Khai báo package cần scan và viewResolver.
+
+        spring-config-mvc.xml
+
+        <!-- Spring MVC Annotation -->
+
+<context:annotation-config />
+
+<mvc:annotation-driven/>
+
+
+
+        <!--Controller -->
+
+<context:component-scan base-package="controller"/>
+
+        <!--View -->
+
+<bean id="viewResolver"
+
+      p:prefix="/WEB-INF/views/" p:suffix=".jsp"
+
+      class="org.springframework.web.servlet.view.InternalResourceViewResolver"/>
